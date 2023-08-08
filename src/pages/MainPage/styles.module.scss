@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+    .reposContainer {
+        margin-top: 20px;
+    }
+
+    .dropdownContainer {
+        position: relative;
+        max-width: 560px;
+        width: 100%;
+
+        input {
+            border: 0;
+            background: whitesmoke;
+            border-radius: 15px;
+            padding: 5px;
+            outline: 0;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .dropdown {
+            position: absolute;
+            left: 0;
+            top: 42px;
+            right: 0;
+            max-height: 315px;
+            overflow-y: scroll;
+
+
+
+            img {
+                max-width: 25%;
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+.disable {
+    display: none;
+}
