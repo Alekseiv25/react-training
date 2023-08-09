@@ -3,6 +3,7 @@ import './App.css';
 import { Layout } from './pages/Layout';
 import { MainPage } from './pages/MainPage';
 import { FavouritesPage } from './pages/FavouritesPage';
+import { UserPage } from './pages/UsersPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<MainPage />} />
         <Route path='favourites' element={<FavouritesPage />} />
+        <Route path='users' element={<UserPage />} />
       </Route>
     </Routes>
   )

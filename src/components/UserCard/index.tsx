@@ -1,5 +1,4 @@
 import { IUser } from "../../models/models";
-import { useLazyGetUserReposQuery } from "../../store/github/github.api";
 import styles from './styles.module.scss';
 
 interface IProps {
